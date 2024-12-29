@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Veycade/MineBox">
+  <a href="https://github.com/ImViloh/MineBox">
     <img src="CLIENT/IMG/logoClear.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,7 +20,7 @@
   <p align="center">
     A RESPONSIVE WEB GUI BASED MINECRAFT SERVER MANAGER!
     <br />
-    <a href="https://github.com/Veycade/MineBox/issues"><strong>Report An Issue »</strong></a>
+    <a href="https://github.com/ImViloh/MineBox/issues"><strong>Report An Issue »</strong></a>
     <br />
     <br />
   </p>
@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![MineBox Preview][product-screenshot]](https://raw.githubusercontent.com/Veycade/MineBox/main/preview.png)
+[![MineBox Preview][product-screenshot]](https://raw.githubusercontent.com/ImViloh/MineBox/main/preview.png)
 
 MineBox was designed and created to help people make minecraft servers with ease. The problem we encountered was that most users don't know how to edit their servers or easily change things. Everything is easily changeable with MineBox. MineBox also has more advanced features for more advanced users such as console logging, server monitoring and many more features to come. 
 
@@ -73,7 +73,7 @@ MineBox was designed and created to help people make minecraft servers with ease
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Head over to our <a href="https://github.com/Veycade/MineBox/releases">Releases</a> page and download the latest version of MineBox.
+1. Head over to our <a href="https://github.com/ImViloh/MineBox/releases">Releases</a> page and download the latest version of MineBox.
 
 2. Run the installer for MineBox ⚠️READ NOTE BELOW⚠️
    
@@ -96,7 +96,7 @@ MineBox was designed and created to help people make minecraft servers with ease
 - ❌ Execution and Communication with Minecraft Servers
 - ❌ Easy Config and YML Integration for Users
 
-See the [open issues](https://github.com/Veycade/MineBox/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ImViloh/MineBox/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,18 +133,18 @@ Distributed under the MIT License.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Veycade/MineBox.svg?style=for-the-badge
-[contributors-url]: https://github.com/Veycade/MineBox/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Veycade/MineBox.svg?style=for-the-badge
-[forks-url]: https://github.com/Veycade/MineBox/network/members
+[contributors-shield]: https://img.shields.io/github/contributors/ImViloh/MineBox.svg?style=for-the-badge
+[contributors-url]: https://github.com/ImViloh/MineBox/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ImViloh/MineBox.svg?style=for-the-badge
+[forks-url]: https://github.com/ImViloh/MineBox/network/members
 [Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
-[stars-shield]: https://img.shields.io/github/stars/Veycade/MineBox.svg?style=for-the-badge
-[stars-url]: https://github.com/Veycade/MineBox/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Veycade/MineBox.svg?style=for-the-badge
-[issues-url]: https://github.com/Veycade/MineBox/issues
-[license-shield]: https://img.shields.io/github/license/Veycade/MineBox?style=for-the-badge
-[license-url]: https://github.com/Veycade/MineBox/blob/main/LICENSE
+[stars-shield]: https://img.shields.io/github/stars/ImViloh/MineBox.svg?style=for-the-badge
+[stars-url]: https://github.com/ImViloh/MineBox/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ImViloh/MineBox.svg?style=for-the-badge
+[issues-url]: https://github.com/ImViloh/MineBox/issues
+[license-shield]: https://img.shields.io/github/license/ImViloh/MineBox?style=for-the-badge
+[license-url]: https://github.com/ImViloh/MineBox/blob/main/LICENSE
 [product-screenshot]: preview.png
 [Electron.js]: https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white
 [Electron-url]: https://www.electronjs.org
