@@ -1,5 +1,15 @@
 
-
+$('addServer').on('submit', function(e) {
+  //FORM IS VALID 
+  //stop default form submission so you can do stuff
+  console.log('form 1');
+  e.preventDefault();
+  console.log('form 2');
+  //do stuff
+  //submit form if desired
+  this.submit();
+  console.log('form 3');
+});
 
 function searchF() {
     // Declare variables

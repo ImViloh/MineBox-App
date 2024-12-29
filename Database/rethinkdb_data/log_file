@@ -1,0 +1,47 @@
+2024-12-25T21:06:02.912929300 0.015568s notice: In recursion: removing file 'D:\\CODING\\MineBox\\Database\\rethinkdb_data\\tmp'
+2024-12-25T21:06:02.913932500 0.016147s warn: Trying to delete non-existent file 'D:\\CODING\\MineBox\\Database\\rethinkdb_data\\tmp'
+2024-12-25T21:06:02.915888100 0.018900s notice: Initializing directory D:\\CODING\\MineBox\\Database\\rethinkdb_data
+2024-12-25T21:06:02.917892900 0.020148s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'D:\\CODING\\MineBox\\Database\\rethinkdb_data' did not already exist or is empty.)
+2024-12-25T21:06:02.917892901 0.020190s notice: Running rethinkdb 2.3.2-windows-beta-545-g85e842 (MSC 190024225)...
+2024-12-25T21:06:02.927049900 0.029171s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2024-12-25T21:06:02.927049901 0.029288s notice: Loading data from directory D:\\CODING\\MineBox\\Database\\rethinkdb_data
+2024-12-25T21:06:03.025685400 0.128764s info: Automatically using cache size of 21894 MB
+2024-12-25T21:06:03.027247500 0.130423s notice: Listening for intracluster connections on port 29015
+2024-12-25T21:06:03.028824000 0.131502s notice: Listening for client driver connections on port 28015
+2024-12-25T21:06:03.028824001 0.131541s notice: Listening for administrative HTTP connections on port 8080
+2024-12-25T21:06:03.028824002 0.131542s notice: Listening on cluster address: 127.0.0.1
+2024-12-25T21:06:03.028824003 0.131543s notice: Listening on driver address: 127.0.0.1
+2024-12-25T21:06:03.028824004 0.131544s notice: Listening on http address: 127.0.0.1
+2024-12-25T21:06:03.028824005 0.131545s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-12-25T21:06:03.028824006 0.131546s notice: Server ready, "Viloh_kox" d4b84ffe-05a9-432d-a81b-630bed40a132
+2024-12-25T21:06:07.285227400 4.388686s notice: Server got Close (End Task) Event; shutting down...
+2024-12-25T21:33:23.647303000 0.016687s notice: Running rethinkdb 2.3.2-windows-beta-545-g85e842 (MSC 190024225)...
+2024-12-25T21:33:23.647303001 0.016818s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2024-12-25T21:33:23.647303002 0.016922s notice: Loading data from directory D:\\CODING\\MineBox\\Database\\rethinkdb_data
+2024-12-25T21:33:23.662823900 0.031999s info: Automatically using cache size of 21937 MB
+2024-12-25T21:33:23.663823300 0.033731s notice: Listening for intracluster connections on port 29015
+2024-12-25T21:33:23.665861700 0.034798s notice: Listening for client driver connections on port 28015
+2024-12-25T21:33:23.665861701 0.034845s notice: Listening for administrative HTTP connections on port 8080
+2024-12-25T21:33:23.665861702 0.034847s notice: Listening on cluster address: 127.0.0.1
+2024-12-25T21:33:23.665861703 0.034848s notice: Listening on driver address: 127.0.0.1
+2024-12-25T21:33:23.665861704 0.034849s notice: Listening on http address: 127.0.0.1
+2024-12-25T21:33:23.665861705 0.034850s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-12-25T21:33:23.665861706 0.034851s notice: Server ready, "Viloh_kox" d4b84ffe-05a9-432d-a81b-630bed40a132
+2024-12-25T21:33:32.943077500 9.312004s notice: Server got Close (End Task) Event; shutting down...
+2024-12-25T21:34:25.146747100 0.012591s notice: Running rethinkdb 2.3.2-windows-beta-545-g85e842 (MSC 190024225)...
+2024-12-25T21:34:25.146747101 0.012700s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2024-12-25T21:34:25.146747102 0.012753s notice: Loading data from directory D:\\CODING\\MineBox\\Database\\rethinkdb_data
+2024-12-25T21:34:25.150749100 0.017296s info: Automatically using cache size of 21954 MB
+2024-12-25T21:34:25.152746400 0.018672s notice: Listening for intracluster connections on port 29015
+2024-12-25T21:34:25.153746300 0.019492s notice: Listening for client driver connections on port 28015
+2024-12-25T21:34:25.153746301 0.019533s notice: Listening for administrative HTTP connections on port 8080
+2024-12-25T21:34:25.153746302 0.019534s notice: Listening on cluster address: 127.0.0.1
+2024-12-25T21:34:25.153746303 0.019535s notice: Listening on driver address: 127.0.0.1
+2024-12-25T21:34:25.153746304 0.019536s notice: Listening on http address: 127.0.0.1
+2024-12-25T21:34:25.153746305 0.019537s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-12-25T21:34:25.153746306 0.019538s notice: Server ready, "Viloh_kox" d4b84ffe-05a9-432d-a81b-630bed40a132
+2024-12-25T21:34:34.186954900 9.052744s notice: Server got Control-C; shutting down...
+2024-12-25T21:34:34.186954901 9.052974s notice: Shutting down client connections...
+2024-12-25T21:34:34.186954902 9.053016s notice: All client connections closed.
+2024-12-25T21:34:34.186954903 9.053017s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-12-25T21:34:34.186954904 9.053520s notice: Storage engine shut down.

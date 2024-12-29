@@ -33,11 +33,11 @@
         <div class="row mt-4">
             <div class="col-sm card mx-3 animate__animated animate__fadeInLeft">
                 <div class="row" style="min-height: 100%; text-align: left;">
-                    <div class="col-sm my-2">
+                    <div class="col-sm-7 my-2">
                         <h6 style="font-weight: bold;">CPU USAGE</h6>
-                        <h2>50%</h2>
+                        <h2 id="cpuUsage">0%</h2>
                         <div class="progress bg-dark">
-                            <div class="progress-bar" role="progressbar" style="width: 50%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar" id="cpuUsage1" role="progressbar" style="width: 0px; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                           </div>
                     </div>
                     <div class="col-sm" style="text-align: right;">
@@ -47,11 +47,11 @@
             </div>
             <div class="col-sm card mx-3 animate__animated animate__fadeInDown">
                 <div class="row" style="min-height: 100%; text-align: left;">
-                    <div class="col-sm my-2">
+                    <div class="col-sm-7 my-2">
                         <h6 style="font-weight: bold;">RAM USAGE</h6>
-                        <h2>23GB / 64GB</h2>
+                        <h2 id="ramUsage">0 GB / 0 GB</h2>
                         <div class="progress bg-dark">
-                            <div class="progress-bar" role="progressbar" style="width: 43%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">43%</div>
+                            <div class="progress-bar" role="progressbar" id="ramUsage1" style=" width:0px; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                           </div>
                     </div>
                     <div class="col-sm" style="text-align: right;">
@@ -61,11 +61,11 @@
             </div>
             <div class="col-sm card mx-3 animate__animated animate__fadeInDown">
                 <div class="row" style="min-height: 100%; text-align: left;">
-                    <div class="col-sm my-2">
+                    <div class="col-sm-7 my-2">
                         <h6 style="font-weight: bold;">PLAYER COUNT</h6>
-                        <h2>5,000 / 10,000</h2>
+                        <h2 id="playerCount">0 / 0</h2>
                         <div class="progress bg-dark">
-                            <div class="progress-bar" role="progressbar" style="width: 50%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar" role="progressbar" id="playerCount1" style="width: 0%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                           </div>
                     </div>
                     <div class="col-sm" style="text-align: right;">
@@ -75,11 +75,11 @@
             </div>
             <div class="col-sm card mx-3 animate__animated animate__fadeInRight">
                 <div class="row" style="min-height: 100%; text-align: left;">
-                    <div class="col-sm my-2">
+                    <div class="col-sm-7 my-2">
                         <h6 style="font-weight: bold;">SERVERS ONLINE</h6>
-                        <h2>5 / 20</h2>
+                        <h2 id="serverCount">0 / 0</h2>
                         <div class="progress bg-dark">
-                            <div class="progress-bar" role="progressbar" style="width: 25%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            <div class="progress-bar" role="progressbar" id="serverCount1" style="width: 0%; background-image: linear-gradient(to top left, #8126c6, #fb218e);" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                           </div>
                     </div>
                     <div class="col-sm" style="text-align: right;">

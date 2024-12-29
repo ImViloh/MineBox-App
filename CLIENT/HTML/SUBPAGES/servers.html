@@ -32,11 +32,86 @@
     
 
         <li class="list-group-item" style="text-align: center;">
-          <button type="button" class="btn btn-card" id="addServer" onclick="addServer()"><i class="fa-solid fa-plus fa-5x"></i><br><h3>ADD SERVER</h3></button>
+          <button type="button" class="btn btn-card" id="addServer" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus fa-5x"></i><br><h3>CREATE SERVER</h3></button>
         </li>
     
       </ul>
     </div>
+
+    <!-- Modal -->
+<div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-minebox">
+      <div class="modal-header bg-minebox">
+        <img src="../../IMG/logoClear.png" alt="" width="40" class="rounded-circle animate__animated animate__fadeInDown">
+        <h3 class="modal-title m-auto" id="exampleModalLabel">CREATE SERVER</h3>
+        <button type="button" class="btn btn-minebox" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+      </div>
+      <div class="modal-body bg-minebox">
+        
+
+
+
+        <form>
+          
+          <div class="container-fluid">
+            <label class="form-label">Server Name</label>
+            <input type="text" class="form-control" id="serverName" aria-describedby="serverName" required="required" placeholder="Minecraft Server">
+
+            <label class="form-label">Motd</label>
+            <input type="text" class="form-control" id="motd" aria-describedby="motd" placeholder="My Awesome Minecraft Server">
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm">
+                <label class="form-label">IP</label>
+                <input type="text" class="form-control" id="ip" aria-describedby="ip" required="required" placeholder="127.0.0.1" maxlength="15">
+              </div>
+              <div class="col-sm">
+                <label class="form-label">Port</label>
+                <input type="number" class="form-control" id="port" aria-describedby="port" required="required" placeholder="25565" min="0" max="99999">
+              </div>
+              <div class="col-sm">
+                <label class="form-label">Max Players</label>
+                <input type="number" class="form-control" id="maxPlayers" aria-describedby="maxPlayers" required="required" placeholder="100">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm">
+                <label class="form-label">PvP</label>
+                  <select class="form-select" id="pvp">
+                    <option value="true" selected>True</option> 
+                    <option value="false">False</option>
+                  </select>
+              </div>
+              <div class="col-sm">
+                <label class="form-label">Port</label>
+                <input type="number" class="form-control" id="port" aria-describedby="port" required="required" placeholder="25565">
+              </div>
+              <div class="col-sm">
+                <label class="form-label">Max Players</label>
+                <input type="number" class="form-control" id="maxPlayers" aria-describedby="maxPlayers" required="required" placeholder="100">
+              </div>
+            </div>
+          </div>
+
+
+          
+          <div class="modal-footer bg-minebox">
+            <button type="submit" class="btn btn-minebox" id="addServer"><i class="fa-solid fa-save"></i> SAVE SERVER</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
    
 
 
