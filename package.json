@@ -52,6 +52,7 @@
     "jquery": "^3.7.1",
     "os-utils": "^0.0.14",
     "path": "^0.12.7",
+    "ping-minecraft-server": "^1.0.1",
     "rethinkdb": "^2.3.2",
     "socket.io": "^4.7.2"
   },

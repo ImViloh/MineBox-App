@@ -4,6 +4,8 @@ const fs = require('fs');
 const { config } = require('process');
 const path = require('path');
 const unhandled = require('electron-unhandled');
+const child = require('child_process');
+const db = require('rethinkdb');
 
 unhandled();
 
@@ -32,24 +34,31 @@ const createWindow = () => {
 
   mainWindow.once('ready-to-show', function (){
     mainWindow.show();
-});
+  });
 
 }
 
-
-
-if (!fs.existsSync('./MBConfig')){
-  fs.mkdirSync('./MBConfig');
+if (!fs.existsSync('./Servers')){
+  fs.mkdirSync('./Servers');
 };
 
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
 
-  createWindow()
+  createWindow();
+
+  child.execFile(__dirname + '/Database/database.exe', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error: ${error.message}`);
+      return;
+    }
+    console.log(`stdout: ${stdout}`);
+    console.error(`stderr: ${stderr}`);
+  })
 
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
-})
+});
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
